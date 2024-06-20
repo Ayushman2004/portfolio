@@ -3,7 +3,7 @@ This is my **Personal Portfolio Website**.
 Feel free to explore.
 
 ## Getting Started
-1. Visite [portfolio.github.io](ayushman2004.github.io/portfolio) .
+1. Visite [portfolio.github.io](https://ayushman2004.github.io/portfolio/) .
 2. Navigate through the sections to discover my skills, projects, and more.
 3. Feel free to reach out through the provided contact details or connect with me on social media.
 
