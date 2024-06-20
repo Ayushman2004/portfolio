@@ -1,0 +1,267 @@
+body {
+    font-family:monospace;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-image:url(./Images/background_1.jpg) ; /* background color for the whole page */
+    background-size: cover;
+  
+    }
+    
+  .card {
+   
+    background-color: #151616; /* background color for the cards */
+    border-radius: 40px; /* rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow effect for the cards */
+    position: relative;
+    color: #d5d5d5;
+  }
+  
+  #space{
+    height: 1700px;
+    margin: 40px; /* spacing between cards */
+    padding: 30px;
+    overflow: hidden;
+  
+  }
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151616;
+    position: sticky;
+  
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 17px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: white;
+    transition:color 0.3s ease;
+  }
+  #me{
+    width: 300px;
+    border-radius: 50%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 15px;
+    object-fit: cover;
+    position: absolute;
+      /* Position the frame relative to the card */
+    top: 200px; /* Adjust vertical position within the card */
+    left: 200px; /* Adjust horizontal position within the card */
+  }
+  
+  .intro{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top:250px;
+    left: 600px;
+  
+  }
+  #name {
+    font-size: 36px; /* Adjust the font size as needed */
+    color:white
+  }
+  
+  /*body:hover .card img {
+    transform: translate(5px, 5px);
+  }*/
+  #Languages{
+    position:absolute;
+    top: 600px;
+    left:100px;
+    display: inline-block;
+  }
+  
+  #python{
+    width: 150px;
+    position: absolute;
+    margin: auto;
+  }
+  #c{
+    width: 200px;
+    position: absolute;
+    margin: auto;
+  }
+  #cc{
+    width: 500px;
+    position: absolute;
+    margin: auto;
+  }
+  
+  #java{
+    width: 150px;
+    position: absolute;
+    margin: auto;
+  }
+  
+  #sql{
+    width: 250px;
+    position: absolute;
+    margin: auto;
+  }
+  #ts{
+    width: 150px;
+    position: absolute;
+    margin: auto;
+  }
+  
+  #js{
+    width: 150px;
+    position: absolute;
+    margin: auto;
+  }
+  
+  #nptel{
+    width: 150px;
+    position: absolute;
+    margin: auto;
+    top: 75%;
+    left: 10%;
+    transform: translate(-25%, -90%);
+    max-width: 100%; /* Ensure the image does not exceed the card width */
+    max-height: 100%;
+  }
+  #logo{
+    float: left;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #7066ff;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+    margin-right: 8px;
+    margin-top: 4px;
+  }
+  
+  .card2 {
+   
+    background-color: #212529; /* background color for the cards */
+    border-radius: 40px; /* rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow effect for the cards */
+    position: relative;
+    color: #d5d5d5;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  #l1{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 700px;
+    left:150px
+  }
+  #l2{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 700px;
+    left:400px
+  }
+  #l3{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 700px;
+    left:650px
+  }
+  #l4{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 700px;
+    left:900px
+  }
+  #l5{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 1000px;
+    left:275px
+  }
+  #l6{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 1000px;
+    left:525px
+  }
+  #l7{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 1000px;
+    left:765px
+  }
+  
+  #c1{
+    height: 250px;
+    width: 800px;
+    position: absolute;
+    overflow: hidden;
+    top: 1350px;
+    left:200px
+  }
+  
+  
+  
+  .card2 img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; /* Ensure the image does not exceed the card width */
+    max-height: 100%;
+  }
+  
+  .card2:hover{
+    transform: scale(1.1);
+  }
+  
+  #certification{
+    position:absolute;
+    top: 1270px;
+    left:100px;
+    display: inline-block;
+  }
+  
+  .cn{
+    position: absolute;
+    margin: auto;
+    top: 75%;
+    left: 30%;
+    transform: translate(-5%, -90%);
+    max-width: 100%; /* Ensure the image does not exceed the card width */
+    max-height: 100%;
+  }
+  .cn a{
+    color: #d5d5d5;
+  }
